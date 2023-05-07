@@ -42,9 +42,8 @@ APP_LOAD_FLAGS= --appFlags 0xa40 --dep Ethereum:$(APPVERSION)
 # Set Chain environnement #
 ###########################
 
-CHAIN=cortex
 ifeq ($(CHAIN),)
-CHAIN=ethereum
+CHAIN=cortex
 endif
 
 SUPPORTED_CHAINS=$(shell find makefile_conf/chain/ -type f -name '*.mk'| sed 's/.*\/\(.*\).mk/\1/g' | sort)
