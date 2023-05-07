@@ -147,6 +147,9 @@ extraInfo_t *getKnownToken(uint8_t *contractAddress) {
         case CHAIN_KIND_AKROMA:
             numTokens = NUM_TOKENS_AKROMA;
             break;
+        case CHAIN_KIND_CORTEX:
+            numTokens = NUM_TOKENS_CORTEX;
+            break;
         case CHAIN_KIND_ETHEREUM:
             numTokens = NUM_TOKENS_ETHEREUM;
             break;
@@ -305,6 +308,9 @@ extraInfo_t *getKnownToken(uint8_t *contractAddress) {
         switch (chainConfig->kind) {
             case CHAIN_KIND_AKROMA:
                 currentToken = (tokenDefinition_t *) PIC(&TOKENS_AKROMA[i]);
+                break;
+            case CHAIN_KIND_CORTEX:
+                currentToken = (tokenDefinition_t *) PIC(&TOKENS_CORTEX[i]);
                 break;
             case CHAIN_KIND_ETHEREUM:
                 currentToken = (tokenDefinition_t *) PIC(&TOKENS_ETHEREUM[i]);

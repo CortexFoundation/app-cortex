@@ -76,6 +76,7 @@ static const uint8_t LEDGER_SIGNATURE_PUBLIC_KEY[] = {
 // These defines need to follow tokens.c
 
 #define NUM_TOKENS_AKROMA           0
+#define NUM_TOKENS_CORTEX           0
 #define NUM_TOKENS_ELLAISM          1
 #define NUM_TOKENS_ETHEREUM         2
 #define NUM_TOKENS_ETHEREUM_CLASSIC 4
@@ -128,6 +129,7 @@ static const uint8_t LEDGER_SIGNATURE_PUBLIC_KEY[] = {
 #define NUM_TOKENS_OASYS            0
 
 extern tokenDefinition_t const TOKENS_AKROMA[NUM_TOKENS_AKROMA];
+extern tokenDefinition_t const TOKENS_CORTEX[NUM_TOKENS_CORTEX];
 extern tokenDefinition_t const TOKENS_ELLAISM[NUM_TOKENS_ELLAISM];
 extern tokenDefinition_t const TOKENS_ETHEREUM[NUM_TOKENS_ETHEREUM];
 extern tokenDefinition_t const TOKENS_ETHEREUM_CLASSIC[NUM_TOKENS_ETHEREUM_CLASSIC];

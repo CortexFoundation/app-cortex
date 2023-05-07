@@ -42,6 +42,7 @@ APP_LOAD_FLAGS= --appFlags 0xa40 --dep Ethereum:$(APPVERSION)
 # Set Chain environnement #
 ###########################
 
+CHAIN=cortex
 ifeq ($(CHAIN),)
 CHAIN=ethereum
 endif

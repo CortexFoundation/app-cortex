@@ -78,6 +78,7 @@ const tokenDefinition_t const TOKENS_ETHEREUM[NUM_TOKENS_ETHEREUM] = {
 };
 
 const tokenDefinition_t const TOKENS_AKROMA[NUM_TOKENS_AKROMA] = {};
+const tokenDefinition_t const TOKENS_CORTEX[NUM_TOKENS_CORTEX] = {};
 
 const tokenDefinition_t const TOKENS_ELLAISM[NUM_TOKENS_ELLAISM] = {
     {{0x99, 0x1e, 0x7f, 0xe4, 0xb0, 0x5f, 0x2b, 0x3d, 0xb1, 0xd7,
